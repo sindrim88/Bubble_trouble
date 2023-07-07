@@ -1,0 +1,20 @@
+{"frames": [
+
+{
+	"filename": "explosion.png",
+	"frame": {"x":0,"y":0,"w":1152,"h":166},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1152,"h":166},
+	"sourceSize": {"w":1152,"h":166}
+}],
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "explosion-sheet.png",
+	"format": "RGBA8888",
+	"size": {"w":1152,"h":166},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:e7071470293cd8e740d2a0c8429567a9:a2469fe65f8f58fa33c85a65b133f76d:705359f9a94e7754fe011a1a293d5fc0$"
+}
+}

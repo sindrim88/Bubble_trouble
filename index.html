@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Bubble Trouble</title>
+  </head>
+  <style>
+
+    html {
+      background-color: black;
+    }
+    body {
+      width: 50%;
+      margin: auto;
+      padding: 10px;
+      text-align: center;
+    }
+
+    #robot {
+      width: 50%;
+      float: right;
+    }
+
+    #newGame, #nextLevel, #tryAgain {
+      margin-top: 100px;
+    }
+
+    #newGame:hover, #nextLevel:hover, #tryAgain:hover {
+      filter: grayscale(100%);
+    }
+
+    #nextLevel, #tryAgain {
+      display: none;
+    }
+
+  </style>
+  <body>
+    <div id="startScreen">
+      <img id="newGame" onclick="startScreen()" src="img/start/newgame.png">
+      <img id="nextLevel" src="img/start/nextlevel.png">
+      <img id="tryAgain" src="img/start/tryagain.png">
+      <img id="robot" src="img/start/robot.png">
+    </div>
+    <canvas id="myCanvas" width="600" height="600"
+        style="border: 1px solid black;">
+    Sorry, but your browser does not support the HTML5 canvas tag.
+    </canvas>
+
+
+    <div id="output"></div>
+
+    <script src="globals.js"></script>
+    <script src="util.js"></script>
+    <script src="keys.js"></script>
+    <script src="handleMouse.js"></script>
+    <script src="spatialManager.js"></script>
+    <script src="entityManager.js"></script>
+    <script src="Entity.js"></script>
+    <script src="sound.js"></script>
+    
+    <script src="powerup.js"></script>
+    <script src="scores.js"></script>
+    <script src="Sprite.js"></script>
+    <script src="Entity.js"></script>
+    <script src="Background.js"></script>
+    <script src="Ground.js"></script>
+    <script src="Wire.js"></script>
+    <script src="Bubble.js"></script>
+    <script src="Player.js"></script>    
+    <script src="Brick.js"></script>
+    <script src="Grenade.js"></script>
+
+    <script src="levels.js"></script>
+    
+
+    <script src="update.js"></script>
+    <script src="render.js"></script>
+
+    <script src="imagesPreload.js"></script>
+    <script src="main.js"></script>
+
+    <script src="BUBBLE-TROUBLE.js"></script>
+
+
+  </body>
+</html>
